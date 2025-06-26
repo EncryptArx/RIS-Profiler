@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Data and logs
+data/captured_frames/
+data/logs.csv
+app_debug.log
+
+# Model weights and large files
+*.pt
+*.onnx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.vscode/
+.idea/
+*.swp 

@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Live Feed Styles */
+.live-feed-container {
+    position: relative;
+    width: 100%;
+    background-color: #000;
+}
+
+.live-feed-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Alerts Styles */
+#alerts-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.alert-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+.alert-item:hover {
+    background-color: #f8f9fa;
+}
+
+.alert-timestamp {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Captured Frames Styles */
+.captured-frame {
+    margin-bottom: 1rem;
+}
+
+.captured-frame img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.captured-frame img:hover {
+    transform: scale(1.02);
+}
+
+.captured-frame-info {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Loading States */
+.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .col-md-8, .col-md-4 {
+        margin-bottom: 1rem;
+    }
+} 
