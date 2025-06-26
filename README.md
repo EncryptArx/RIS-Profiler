@@ -16,8 +16,8 @@ This project brings real-time AI/ML analytics to CCTV systems, enabling facial r
 ## Setup Instructions
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/facealertsystem.git
-   cd facealertsystem
+   git clone https://github.com/EncryptArx/RIS-Profiler.git
+   cd RIS-Profiler
    ```
 2. **Create and activate a virtual environment:**
    ```sh
@@ -48,6 +48,11 @@ This project brings real-time AI/ML analytics to CCTV systems, enabling facial r
   python evaluate.py
   ```
 
+## Model Weights
+
+- The YOLOv8 model weights (`yolov8n.pt`) will be automatically downloaded by the code if not present.
+- If you want to use a custom or pre-downloaded model, download it from [this Google Drive link](https://drive.google.com/file/d/1xOVek65y7D3s3gCs68otCX_nrclg4fYy/view?usp=sharing) and place it in the project root directory.
+
 ## Contribution
 - Fork the repo and submit pull requests.
 - Please update the README and .gitignore as needed.
@@ -55,7 +60,6 @@ This project brings real-time AI/ML analytics to CCTV systems, enabling facial r
 ## License
 This project is licensed under the MIT License.
 
-## Model Weights
+## Repository
 
-- The YOLOv8 model weights (`yolov8n.pt`) will be automatically downloaded by the code if not present.
-- If you want to use a custom or pre-downloaded model, download it from [this Google Drive link](https://drive.google.com/file/d/1xOVek65y7D3s3gCs68otCX_nrclg4fYy/view?usp=sharing) and place it in the project root directory. 
+- [GitHub: EncryptArx/RIS-Profiler](https://github.com/EncryptArx/RIS-Profiler.git) 
