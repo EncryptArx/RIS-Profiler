@@ -16,7 +16,7 @@ This project brings real-time AI/ML analytics to CCTV systems, enabling facial r
 ## Setup Instructions
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/EncryptArx/RIS-Profiler.git
+   git clone https://github.com/EncryptArx/Face-Alert-System.git
    cd RIS-Profiler
    ```
 2. **Create and activate a virtual environment:**
